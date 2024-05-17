@@ -1,0 +1,93 @@
+* {
+  letter-spacing: 0.2rem;
+}
+body {
+  background-color: antiquewhite;
+}
+.container {
+  margin: auto;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  text-transform: uppercase;
+  color: darkgrey;
+}
+.container .top-part {
+  display: flex;
+  flex-direction: column;
+}
+.container .top-part label {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+.container .top-part input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0px;
+}
+.container .top-part input:focus {
+  outline: none;
+}
+.bottom-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.bottom-part p {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+.bottom-part .details .location {
+  font-size: 20px;
+  color: lightblue;
+}
+.bottom-part .details .weather {
+  font-size: 15px;
+  color: lightcoral;
+}
+.bottom-part .details .temperature {
+  width: 100%;
+  font-size: 20px;
+  color: yellow;
+}
+.bottom-part img {
+  scrollbar-color: relative;
+}
+.hidden {
+  display: none;
+}
+.details {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+}
+.details.location {
+  font-size: 10px;
+}
+.weather {
+  font-size: 10px;
+}
+.icon {
+  background-color: skyblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+}
+.background {
+  border-radius: 20px;
+}
+/* .csspart {
+  font-size: 90px !important;
+} */

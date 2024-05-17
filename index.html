@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+      <h1>Jeki Weather</h1>
+
+      <form class="top-part">
+        <label for="search">Enter a location for weather information</label>
+        <input type="text" id="search" name="search" class="searchBar" />
+      </form>
+
+      <div class="bottom-part">
+        <img name="background" class="background" />
+        <div class="icon"></div>
+        <div class="details"></div>
+      </div>
+    </div>
+    <script src="script/app.js"></script>
+    <script src="script/forecast.js"></script>
   </body>
 </html>
